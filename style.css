@@ -1,0 +1,699 @@
+/* style generale de notre page web */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+/* fin du syle generale */
+/* -----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------- */
+
+/* style primairre de notre page web  */
+p{
+    font-weight: 300;
+    color: #111;
+
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    /* background-color: rgb(255, 128, 9); */
+    background-color: rgb(14, 3, 53);
+
+    /* background-color: rgba(30, 7, 36, 0.979); */
+}
+#log{
+    position: relative;
+   
+   width: 90px;
+   height: 60px;
+   background-color: #fff;
+   border:5px solid  #fff;
+}
+#log1{
+    position: relative;
+   
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    visibility: hidden;
+}
+.logo span{
+    color: rgb(255, 166, 0);
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.btn-commende{
+    padding: 10px 20px ;
+    background-color:rgb(255, 166, 0);
+    margin-top: -10px;
+   text-transform: uppercase;
+
+}
+.btn-commende span{
+    color: #fff;
+}
+.btn-commende:hover{
+    background-color:white;
+    transition: ease-out;
+    
+
+}
+.btn-commende span:hover{
+    color: rgb(255, 166, 0);
+}
+.navbar li a:hover{
+    color:rgb(255, 166, 0);
+    border-bottom: 3px solid rgb(255, 166, 0);
+    transition: ease-out;
+    color: rgb(255, 166, 0);
+
+}
+/* fin du style primaire de notres page web */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.575);
+
+    /* background-color: rgba(30, 7, 36, 0.979); */
+    /* background: url(images/confident-businessman-working-on-his-laptop.jpg);
+    background-size: 100vw ;
+background-repeat: space;     */
+      /* opacity: 50%; */
+
+    /* background-color: rgb(255, 128, 9); */
+}
+#bac img{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+.banniere .contenu{
+    max-width: 70%;
+    text-align: center;
+
+}
+.banniere .contenu h2{
+    color: rgb(10, 7, 44);
+    /* color: rgb(0, 0, 0); */
+    /* color: rgb(23, 63, 241); */
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-transform: capitalize;
+    /* background-color: #fff; */
+}
+
+.contenu p:nth-child(2){
+    color: rgba(10, 7, 44, 0.808);
+    font-size: 1.2rem;
+
+}
+.btn-1{
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(255, 166, 0);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.btn-2{
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(9, 26, 56);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.btn-1:hover{
+    letter-spacing: 4px;
+}
+.btn-2:hover{
+    letter-spacing: 4px;
+}
+
+/* ------------------------------------------------------------------------
+--------------------------------------------------------------- */
+
+section{
+    padding:100px;
+
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row .col50 h2{
+   margin-bottom: 20px;
+}
+.row .col50 p{
+    word-spacing: 4px;
+}
+.titre-text{
+    color: black;
+    font-size: 2rem;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+.titre-text span{
+    color:rgb(255, 128, 9);
+    font-size: 2.5rem;
+    font-weight: 700px;
+}
+.row .col50 img{
+    height: 450px;
+    width: 600px;
+    position: relative;
+
+}
+
+.imbox img{
+    height: 450px;
+    width: 600px;
+    position: relative;
+
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu{
+    margin-top: -100px;
+}
+
+.menu .contenu{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-top: 40px;
+}
+.menu .contenu .box{
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    box-shadow: 2px 0px 3px gray;
+}
+.menu .contenu .box .imbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}
+.menu .contenu .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+}
+.menu .contenu .box .text h3{
+    font-weight: 400;
+
+}
+/* --------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------- */
+
+.catalogue{
+    margin-top: -100px;
+    margin-bottom: 30px;
+
+}
+.catalogue .contenu{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.catalogue .contenu .box{
+    width: 250px;
+    margin: 15px;
+
+}
+.catalogue .contenu .box img{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+/* --------------------------------------------------------------------------------
+------------------------------------------------------------------------------- */
+
+.temoignage{
+    margin-top: -100px;
+    background-color: rgb(14, 3, 53);
+
+}
+.temoignage .contenu{
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.temoignage .contenu .box{
+    width: 300px;
+    
+    margin: 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+.temoignage .contenu .box .imbox{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.temoignage .contenu .box .imbox img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+.temoignage .contenu .box .text{
+    text-align: center;
+    color: #666;
+    font-style: italic;
+
+
+}
+.temoignage .contenu .box .text h3{
+    color: rgb(255, 128, 9);
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+
+
+}
+.blanc .titre-text{
+    color: #fff;
+}
+.blanc .titre-text,
+.blanc p{
+    color: #fff;
+}
+
+/* ------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------- */
+
+.contact{
+    background-color: rgb(194, 192, 192);
+}
+
+.contactforme{
+    padding: 75px 50px;
+    background-color: #fff;
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+
+}
+.contactforme .imputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.contactforme h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contactforme .imputboite input,
+.contactforme .imputboite textarea{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    color: #111;
+    font-size:16px;
+    outline: none;
+    font-weight: 300;
+
+}
+.contactforme .imputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(255, 128, 9);
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    max-width: 120px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#str{
+    color: rgb(255, 128, 9);
+}
+.copyright{
+    padding: 20px;
+    border-top: 2px solid black;
+    background-color: rgb(10, 7, 44);
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: rgb(192, 192, 192);
+}
+.copyright a{
+    color:rgb(255, 128, 9) ;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+header.sticky{
+    background-color: rgb(27, 177, 132);
+
+}
+@media (max-width:760px){
+    #log1{
+        position: relative;
+       
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        visibility: visible;
+        background-color: #fff;
+    }
+.logo{
+    font-size: 1rem;
+    font-weight: 700;
+}
+section{
+    padding: 20px 30px;
+}
+
+.banniere .contenu h2 {
+    color:rgb(14, 3, 53) ;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.banniere .contenu p{
+   
+        color: rgb(0, 0, 0);
+        font-size: 0.8rem;
+    
+}
+.row .col50 {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.row .col50 img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.banniere {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.411);
+    margin-top: 50px;
+}
+.banniere .contenu {
+    max-width: 95vw;
+    text-align: center;
+}
+.menu .contenu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.menu .contenu .box .imbox img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.catalogue .contenu .box img {
+    position: relative;
+    width: 60vw;
+    height: 40vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.temoignage .contenu .box {
+    width: 100%;
+    margin: 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.contactforme {
+   
+    background-color: #fff;
+    max-width: 90vw;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 0;
+   
+}
+.contactforme .imputboite input, .contactforme .imputboite textarea {
+    width: 80%;
+    border: 0.1px solid black;
+    padding: 10px;
+    color: #111;
+    font-size: 16px;
+    outline: none;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.contactforme .imputboite input[type="submit"] {
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(255, 128, 9);
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    max-width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+.contactforme {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.contactforme a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .navbar li a{
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+.navbar{
+   
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+   
+    margin-top: 20px;
+    display:none;
+
+}
+.navbar li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+header{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        padding: 20px 10px;
+        width: 100%;
+        z-index: 1;
+        display:block;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: 0.5s;
+        background-color: rgb(10, 7, 44);
+       
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .entete{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+     .btn-1 {
+        font-size: 12px;
+        color: #fff;
+        background-color: rgb(216, 8, 8);
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.5s;
+        width: 140px;
+    border-radius: 40px;
+
+    }
+     .btn-2{
+    font-size: 12px;
+    color: #fff;
+    background-color: rgb(9, 26, 56);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    width: 140px;
+    border-radius: 40px;
+} 
+    .deuxbtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .catalogue {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .temoignage{
+        margin-top: 0px;
+    }
+    .menu{
+        margin-top: 0;
+    }
+    .contact .titre h2{
+        font-size: 20px;
+    }
+    .contact .titre p{
+        font-size: 15px;
+        text-align: center;
+
+    }
+    .copyright p{
+        font-size: 11px;
+    }
+    .menu .titre h2{
+        font-size: 20px;
+    }
+    .col50 h2{
+        font-size: 20px;
+    }
+}
+.contactforme a{
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
